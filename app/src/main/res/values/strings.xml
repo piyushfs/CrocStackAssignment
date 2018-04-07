@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">CrocStackAssignment</string>
+    <string name="cost_for_two">Avg. cost for two: </string>
+    <string name="hotel_name">Hotel name</string>
+    <string name="location">Location</string>
+    <string name="search">Search</string>
+    <string name="cost">Cost</string>
+    <string name="cost_asc">Cost &#9660;</string>
+    <string name="cost_desc">Cost &#9650;</string>
+    <string name="rating">Rating</string>
+    <string name="rating_asc">Rating &#9660;</string>
+    <string name="rating_desc">Rating &#9650;</string>
+    <string name="cuisines">Cuisines</string>
+</resources>

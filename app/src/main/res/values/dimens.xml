@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="std_padding">8dp</dimen>
+    <dimen name="rest_name">35sp</dimen>
+    <dimen name="rest_address">25sp</dimen>
+
+</resources>
