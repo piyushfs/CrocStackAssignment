@@ -22,48 +22,7 @@ public class RetroFitSingleton {
     public interface PostService
     {
 
-        @Headers("user-key:"+API_KEY)
-        @GET("search")
-        Call<Restaurants> getRestaurantsByName(@Query(value = "q",encoded = false) String q);
 
-        @Headers("user-key:"+API_KEY)
-        @GET("search")
-        Call<Restaurants> getRestaurantsByOffset(@Query(value = "q",encoded = false) String q,@Query(value = "start",encoded = false) String start);
-
-        @Headers("user-key:"+API_KEY)
-        @GET("search")
-        Call<Restaurants> getRestaurantsByNameLocation(@Query(value = "q",encoded = false) String q,@Query(value = "lan",encoded = false) String lan
-        ,@Query(value = "lon",encoded = false) String lon,@Query(value = "radius",encoded = false) String radius);
-
-        @Headers("user-key:"+API_KEY)
-        @GET("search")
-        Call<Restaurants> getRestaurantsByLocation(@Query(value = "lat",encoded = false) String lat,@Query(value = "lon",encoded = false) String lon
-        ,@Query(value = "radius",encoded = false) String radius);
-
-        @Headers("user-key:"+API_KEY)
-        @GET("search")
-        Call<Restaurants> getRestaurantsByNameSort(@Query(value = "q",encoded = false) String q,@Query(value = "sort",encoded = false) String sort
-        ,@Query(value = "order",encoded = false) String order);
-
-        @Headers("user-key:"+API_KEY)
-        @GET("search")
-        Call<Restaurants> getRestaurantsByOffsetSort(@Query(value = "q",encoded = false) String q,@Query(value = "start",encoded = false) String start,
-                                                     @Query(value = "sort",encoded = false) String sort
-                ,@Query(value = "order",encoded = false) String order);
-
-        @Headers("user-key:"+API_KEY)
-        @GET("search")
-        Call<Restaurants> getRestaurantsByNameLocationSort(@Query(value = "q",encoded = false) String q,@Query(value = "lan",encoded = false) String lan
-                ,@Query(value = "lon",encoded = false) String lon,@Query(value = "radius",encoded = false) String radius,
-                                                           @Query(value = "sort",encoded = false) String sort
-                ,@Query(value = "order",encoded = false) String order);
-
-        @Headers("user-key:"+API_KEY)
-        @GET("search")
-        Call<Restaurants> getRestaurantsByLocationSort(@Query(value = "lat",encoded = false) String lat,@Query(value = "lon",encoded = false) String lon
-                ,@Query(value = "radius",encoded = false) String radius,
-                                                       @Query(value = "sort",encoded = false) String sort
-                ,@Query(value = "order",encoded = false) String order);
 
         @Headers("user-key:"+API_KEY)
         @GET("search")
